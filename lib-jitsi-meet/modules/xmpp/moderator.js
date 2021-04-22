@@ -52,7 +52,7 @@ export default function Moderator(roomName, xmpp, emitter, options) {
     this.getNextErrorTimeout = createExpBackoffTimer(1000);
 
     // External authentication stuff
-    this.externalAuthEnabled = false;
+    this.externalAuthEnabled = true;
     this.options = options;
 
     // Whether SIP gateway (jigasi) support is enabled. This is set
