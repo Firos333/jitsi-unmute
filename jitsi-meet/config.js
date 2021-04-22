@@ -9,7 +9,7 @@ var config = {
         domain: 'jitsi-meet.example.com',
 
         // When using authentication, domain for guest users.
-        anonymousdomain: 'guest.jitsii.miltekworkspace.co.in',
+        //anonymousdomain: 'guest.jitsii.miltekworkspace.co.in',
 
         // Domain for authenticated users. Defaults to <domain>.
         // authdomain: 'jitsi-meet.example.com',
