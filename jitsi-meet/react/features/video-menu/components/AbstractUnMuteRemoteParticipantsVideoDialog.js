@@ -35,7 +35,7 @@ export type Props = {
 export default class AbstractMuteRemoteParticipantsVideoDialog<P:Props = Props>
     extends Component<P> {
     /**
-     * Initializes a new {@code AbstractMuteRemoteParticipantsVideoDialog} instance.
+     * Initializes a new {@code } instance.
      *
      * @param {Object} props - The read-only properties with which the new
      * instance is to be initialized.
