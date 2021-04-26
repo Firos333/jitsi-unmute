@@ -176,7 +176,7 @@ class RemoteVideoMenuTriggerButton extends Component<Props> {
 				
 				buttons.push(
                     <UnMuteVideoButton
-                        key = 'Unmute-video'
+                        key = 'unmute-video'
                         participantID = { participantID } />
                 );
 				
