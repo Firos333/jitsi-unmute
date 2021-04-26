@@ -18,6 +18,7 @@ import {
     MuteButton,
 	UnMuteButton,
     MuteVideoButton,
+	UnMuteVideoButton,
     KickButton,
     PrivateMessageMenuButton,
     RemoteControlButton,
@@ -172,6 +173,13 @@ class RemoteVideoMenuTriggerButton extends Component<Props> {
                         key = 'mute-video'
                         participantID = { participantID } />
                 );
+				
+				buttons.push(
+                    <UnMuteVideoButton
+                        key = 'Unmute-video'
+                        participantID = { participantID } />
+                );
+				
                 buttons.push(
                     <MuteEveryoneElsesVideoButton
                         key = 'mute-others-video'
