@@ -5,7 +5,7 @@ import React from 'react';
 import { translate } from '../../../base/i18n';
 import { IconCamera } from '../../../base/icons';
 import { connect } from '../../../base/redux';
-import AbstractMuteVideoButton, {
+import AbstractUnMuteVideoButton, {
     _mapStateToProps,
     type Props
 } from '../AbstractUnMuteVideoButton';
