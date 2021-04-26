@@ -64,4 +64,4 @@ class UnMuteVideoButton extends AbstractUnMuteVideoButton {
     _handleClick: () => void
 }
 
-export default translate(connect(_mapStateToProps)(MuteVideoButton));
+export default translate(connect(_mapStateToProps)(UnMuteVideoButton));
