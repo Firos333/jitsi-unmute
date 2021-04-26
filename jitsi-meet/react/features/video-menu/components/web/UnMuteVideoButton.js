@@ -46,7 +46,7 @@ class UnMuteVideoButton extends AbstractUnMuteVideoButton {
             translationKey: 'videothumbnail.domuteVideo',
             muteClassName: 'mutelink'
         } : {
-            translationKey: 'videothumbnail.videoMuted',
+            translationKey: 'videothumbnail.videomute',
             muteClassName: 'mutelink disabled'
         };
 
