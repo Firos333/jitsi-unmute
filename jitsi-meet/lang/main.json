@@ -269,7 +269,13 @@
         "muteParticipantsVideoButton": "Disable camera",
         "muteParticipantsVideoTitle": "Disable camera of this participant?",
         "muteParticipantsVideoBody": "You won't be able to turn the camera back on, but they can turn it back on at any time.",
-        "Ok": "OK",
+        
+		"unMuteParticipantsVideoButton": "Enable camera",
+		"unMuteParticipantsVideoTitle" : "Enable camera of this participant?",
+		"unMuteParticipantsVideoBody":  "You can turn the camera back on, at any time.",
+		
+		
+		"Ok": "OK",
         "passwordLabel": "The meeting has been locked by a participant. Please enter the $t(lockRoomPassword) to join.",
         "passwordNotSupported": "Setting a meeting $t(lockRoomPassword) is not supported.",
         "passwordNotSupportedTitle": "$t(lockRoomPasswordUppercase) not supported",
